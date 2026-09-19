@@ -1,0 +1,81 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container form {
+  max-width: 400px;
+  width: 100%;
+  border: 1.5px solid lightgrey;
+  padding: 50px;
+  border-radius: 25px;
+  background-color:#F5F3FF;
+}
+
+.container .form__top {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.container .form__top h2 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  color: rgb(146, 18, 146);
+}
+
+.container .form__top p {
+  color: grey;
+}
+
+.container .form__body > div {
+  padding: 10px 0;
+}
+
+.container .form__body sup {
+  font-weight: bold;
+  color: crimson;
+  font-size: 10px;
+}
+.container .form__body input {
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid grey;
+  margin-top: 5px;
+  background: whitesmoke;
+  color: black;
+}
+
+.container .form__body input:focus {
+  outline: 2px solid rgb(146, 18, 146);
+}
+
+.container .form__bottom {
+  padding: 10px 0 0 0;
+}
+
+.container .form__bottom button {
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: rgb(18, 146, 65);
+  border-radius: 5px;
+  color:white;
+}
+.container .form__bottom button:last-of-type {
+  margin-top: 10px;
+}
+
+.container .form__bottom > p {
+  margin-top: 10px;
+  text-align: center;
+  color: grey;
+}
